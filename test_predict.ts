@@ -19,9 +19,13 @@ async function main() {
   assert.ok(units.length > 0, 'Test file contains no units');
 
   // Loading is outside prediction timing.
+  const loadStart = performance.now();
   const predictor = await loadModels(MODELS_DIR);
+  console.log("Loading:", performance.now() - loadStart, "ms");
   try {
+    const predictStart = performance.now();
     const changes = await predictor.predictUnit(records[3].unit_data);
+    console.log("Prediction:", performance.now() - predictStart, "ms");
     console.log("Predicted changes:", changes);
 } finally {
     await predictor.close();
