@@ -1,0 +1,266 @@
+{
+  "inputs": [
+    {
+      "name": "main_units__caste",
+      "type": "string"
+    },
+    {
+      "name": "main_units__weight",
+      "type": "string"
+    },
+    {
+      "name": "main_units__tier",
+      "type": "float32"
+    },
+    {
+      "name": "main_units__num_men",
+      "type": "float32"
+    },
+    {
+      "name": "main_units__recruitment_cost",
+      "type": "float32"
+    },
+    {
+      "name": "main_units__upkeep_cost",
+      "type": "float32"
+    },
+    {
+      "name": "main_units__multiplayer_cost",
+      "type": "float32"
+    },
+    {
+      "name": "main_units__barrier_health",
+      "type": "float32"
+    },
+    {
+      "name": "main_units__is_high_threat",
+      "type": "float32"
+    },
+    {
+      "name": "main_units__is_monstrous",
+      "type": "float32"
+    },
+    {
+      "name": "main_units__is_renown",
+      "type": "float32"
+    },
+    {
+      "name": "main_units__can_siege",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__accuracy",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__armour",
+      "type": "string"
+    },
+    {
+      "name": "land_units__category",
+      "type": "string"
+    },
+    {
+      "name": "land_units__charge_bonus",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__class",
+      "type": "string"
+    },
+    {
+      "name": "land_units__melee_attack",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__melee_defence",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__morale",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__bonus_hit_points",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__num_mounts",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__shield",
+      "type": "string"
+    },
+    {
+      "name": "land_units__secondary_ammo",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__primary_ammo",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__damage_mod_flame",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__damage_mod_magic",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__num_engines",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__damage_mod_physical",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__damage_mod_missile",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__damage_mod_all",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__can_skirmish",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__can_brace",
+      "type": "float32"
+    },
+    {
+      "name": "land_units__reload",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__type",
+      "type": "string"
+    },
+    {
+      "name": "battle_entities__walk_speed",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__run_speed",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__acceleration",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__deceleration",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__charge_speed",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__radius",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__mass",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__turn_speed",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__hit_points",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__fly_speed",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__flying_charge_speed",
+      "type": "float32"
+    },
+    {
+      "name": "battle_entities__size",
+      "type": "string"
+    },
+    {
+      "name": "melee_weapons__bonus_v_large",
+      "type": "float32"
+    },
+    {
+      "name": "melee_weapons__bonus_v_infantry",
+      "type": "float32"
+    },
+    {
+      "name": "melee_weapons__damage",
+      "type": "float32"
+    },
+    {
+      "name": "melee_weapons__ap_damage",
+      "type": "float32"
+    },
+    {
+      "name": "melee_weapons__melee_weapon_type",
+      "type": "string"
+    },
+    {
+      "name": "melee_weapons__splash_attack_target_size",
+      "type": "string"
+    },
+    {
+      "name": "melee_weapons__splash_attack_max_attacks",
+      "type": "float32"
+    },
+    {
+      "name": "melee_weapons__splash_attack_power_multiplier",
+      "type": "float32"
+    },
+    {
+      "name": "melee_weapons__is_magical",
+      "type": "float32"
+    },
+    {
+      "name": "melee_weapons__melee_attack_interval",
+      "type": "float32"
+    },
+    {
+      "name": "projectiles__effective_range",
+      "type": "float32"
+    },
+    {
+      "name": "projectiles__minimum_range",
+      "type": "float32"
+    },
+    {
+      "name": "projectiles__damage",
+      "type": "float32"
+    },
+    {
+      "name": "projectiles__ap_damage",
+      "type": "float32"
+    },
+    {
+      "name": "projectiles__base_reload_time",
+      "type": "float32"
+    },
+    {
+      "name": "projectiles__bonus_v_infantry",
+      "type": "float32"
+    },
+    {
+      "name": "projectiles__bonus_v_large",
+      "type": "float32"
+    },
+    {
+      "name": "is_ranged",
+      "type": "float32"
+    }
+  ],
+  "categorical_missing": "__MISSING__",
+  "output": "transformed_column"
+}

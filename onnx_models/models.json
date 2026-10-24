@@ -1,0 +1,113 @@
+{
+  "delta_main_units__tier": {
+    "file": "delta_main_units__tier.onnx"
+  },
+  "delta_main_units__num_men": {
+    "file": "delta_main_units__num_men.onnx"
+  },
+  "delta_main_units__recruitment_cost": {
+    "file": "delta_main_units__recruitment_cost.onnx"
+  },
+  "delta_main_units__upkeep_cost": {
+    "file": "delta_main_units__upkeep_cost.onnx"
+  },
+  "delta_main_units__multiplayer_cost": {
+    "file": "delta_main_units__multiplayer_cost.onnx"
+  },
+  "delta_main_units__barrier_health": {
+    "file": "delta_main_units__barrier_health.onnx"
+  },
+  "delta_land_units__accuracy": {
+    "file": "delta_land_units__accuracy.onnx"
+  },
+  "delta_land_units__charge_bonus": {
+    "file": "delta_land_units__charge_bonus.onnx"
+  },
+  "delta_land_units__melee_attack": {
+    "file": "delta_land_units__melee_attack.onnx"
+  },
+  "delta_land_units__melee_defence": {
+    "file": "delta_land_units__melee_defence.onnx"
+  },
+  "delta_land_units__morale": {
+    "file": "delta_land_units__morale.onnx"
+  },
+  "delta_land_units__bonus_hit_points": {
+    "file": "delta_land_units__bonus_hit_points.onnx"
+  },
+  "delta_land_units__num_mounts": {
+    "file": "delta_land_units__num_mounts.onnx"
+  },
+  "delta_land_units__secondary_ammo": {
+    "file": "delta_land_units__secondary_ammo.onnx"
+  },
+  "delta_land_units__primary_ammo": {
+    "file": "delta_land_units__primary_ammo.onnx"
+  },
+  "delta_land_units__damage_mod_flame": {
+    "constant": 0.0
+  },
+  "delta_land_units__damage_mod_magic": {
+    "constant": 0.0
+  },
+  "delta_land_units__num_engines": {
+    "file": "delta_land_units__num_engines.onnx"
+  },
+  "delta_land_units__damage_mod_physical": {
+    "file": "delta_land_units__damage_mod_physical.onnx"
+  },
+  "delta_land_units__damage_mod_missile": {
+    "file": "delta_land_units__damage_mod_missile.onnx"
+  },
+  "delta_land_units__damage_mod_all": {
+    "constant": 0.0
+  },
+  "delta_land_units__reload": {
+    "file": "delta_land_units__reload.onnx"
+  },
+  "delta_battle_entities__run_speed": {
+    "file": "delta_battle_entities__run_speed.onnx"
+  },
+  "delta_battle_entities__charge_speed": {
+    "file": "delta_battle_entities__charge_speed.onnx"
+  },
+  "delta_battle_entities__mass": {
+    "file": "delta_battle_entities__mass.onnx"
+  },
+  "delta_battle_entities__hit_points": {
+    "file": "delta_battle_entities__hit_points.onnx"
+  },
+  "delta_melee_weapons__bonus_v_large": {
+    "file": "delta_melee_weapons__bonus_v_large.onnx"
+  },
+  "delta_melee_weapons__bonus_v_infantry": {
+    "file": "delta_melee_weapons__bonus_v_infantry.onnx"
+  },
+  "delta_melee_weapons__damage": {
+    "file": "delta_melee_weapons__damage.onnx"
+  },
+  "delta_melee_weapons__ap_damage": {
+    "file": "delta_melee_weapons__ap_damage.onnx"
+  },
+  "delta_melee_weapons__splash_attack_max_attacks": {
+    "file": "delta_melee_weapons__splash_attack_max_attacks.onnx"
+  },
+  "delta_melee_weapons__splash_attack_power_multiplier": {
+    "file": "delta_melee_weapons__splash_attack_power_multiplier.onnx"
+  },
+  "delta_melee_weapons__is_magical": {
+    "constant": 0.0
+  },
+  "delta_projectiles__effective_range": {
+    "file": "delta_projectiles__effective_range.onnx"
+  },
+  "delta_projectiles__damage": {
+    "file": "delta_projectiles__damage.onnx"
+  },
+  "delta_projectiles__ap_damage": {
+    "file": "delta_projectiles__ap_damage.onnx"
+  },
+  "delta_projectiles__base_reload_time": {
+    "file": "delta_projectiles__base_reload_time.onnx"
+  }
+}
